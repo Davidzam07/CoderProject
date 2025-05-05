@@ -1,0 +1,372 @@
+@media (min-width: 768px) {
+body {
+    font-size: 16px;
+    padding: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    }
+}
+@media (min-width: 768px) {
+body.inicio{
+    font-size: 16px;
+    padding: 10px;
+    background-image: url('https://media.istockphoto.com/id/1830889412/es/foto/aeropuerto-sala-de-estar.jpg?s=612x612&w=0&k=20&c=gMSyzQkslEb2xhUIncekab7uc5j_1AIsocbdJt2HcZk=');
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+@media (min-width: 600px) {
+body.paquetes{
+    font-size: 16px;
+    padding: 10px;
+    background-image: url('https://media.istockphoto.com/id/2168426504/es/vector/edificio-de-aeropuerto-moderno-en-3d-avi%C3%B3n-de-pasajeros-banner-para-dise%C3%B1o-y-conceptos.jpg?s=612x612&w=0&k=20&c=7o44rmfODImsq_6GEgUpl-_UyyMwKu4y3Eq-3Soycfg=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+}
+body.contactos{
+    font-size: 16px;
+    padding: 10px;
+    background-image: url('https://media.istockphoto.com/id/1407087837/es/vector/circuito-de-conexi%C3%B3n-de-l%C3%ADneas-y-puntos-tecnolog%C3%ADa-de-red-y-concepto-de-conexi%C3%B3n-conexiones.jpg?s=612x612&w=0&k=20&c=1mzda7go_DaC6lsKV14Mno03K1oCzsbuypyQF5TJyM0=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+body.destinos{
+    font-size: 16px;
+    padding: 10px;
+    background-image: url('https://media.istockphoto.com/id/1502547874/es/vector/viaja-al-mundo-con-fondo-de-pancarta-plantillas-de-tarjetas-de-turismo-de-paisaje-viaje.jpg?s=612x612&w=0&k=20&c=gw2t74z8VQKWSOShQNhyC1Jgup2-K6yUValEzaK37u4=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+body.opiniones{
+    font-size: 16px;
+    padding: 10px;
+    background-image: url('https://media.istockphoto.com/id/1298136769/es/v%C3%ADdeo/burbujas-de-voz-en-las-redes-sociales-material-de-archivo-de-fondo-en-bucle-4k.avif?s=640x640&k=20&c=1bG-7nTncjBzgzMbludWb4BGb7NPoWA_Fajdnqsiv_A=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.icono {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contenedor {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+.icono img {
+    width: 20px;
+    height: 20px;
+}
+
+nav ul li {
+    font-family: "Josefin Sans", sans-serif;
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+}
+
+.opiniones{
+        background-color: #1c7cbd;
+        padding: 20px;
+        text-align: center;      
+    }
+.opstart{
+    text-align: start;
+}
+    .foothome{
+        text-align: start;
+    }
+
+    .pstart{
+        text-align: start;
+    }
+
+    .home{
+        background-color: #1c7cbd;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .encabezado {
+        background-color: #1c7cbd; 
+        padding: 20px;
+    }
+    
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .logo {
+        width: 80px;
+        height: auto;
+        background-color: #1c7cbd;
+    }
+    
+    .titulo {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2em;
+        margin: 0;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    
+    .menu {
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+    .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: inline-flex;
+        gap: 25px;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 10px 20px;
+    }
+
+.travel-card {
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        overflow: hidden;
+        width: 300px;
+        transition: transform 0.3s ease;
+}
+
+.travel-card:hover {
+        transform: translateY(-5px);
+}
+
+.travel-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+}
+
+.travel-card .card-body {
+        padding: 15px;
+}
+
+.travel-card h3 {
+        margin-top: 0;
+        font-size: 20px;
+        color:#1c7cbd;
+}
+
+    .travel-card p {
+        font-size: 14px;
+        color: #666;
+        margin: 10px 0;
+    }
+
+    .travel-card a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #0e4b74;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .travel-card a:hover {
+        background-color: #1c7cbd;
+    }
+
+    @media (max-width: 768px) {
+        .card-container {
+        flex-direction: column;
+        align-items: center;
+        }
+    }
+
+    .footpaq{
+        background-color: #1c7cbd;
+        padding: 20px;
+        text-align: center;
+    }
+    .contenedor-formulario {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .formulario-vuelos {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        background-color: #68a1df;
+        padding: 15px;
+        border-radius: 8px;
+    }
+    
+    .campo {
+        display: flex;
+        flex-direction: column;
+    }
+
+/* Layout grid 2x2 */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  /* Responsive: 1 columna en móvil */
+@media (max-width: 600px) {
+    .card-grid {
+    grid-template-columns: 1fr;
+    }
+}
+
+  /* Estilos para las cards */
+.comment-card-1,
+.comment-card-2,
+.comment-card-3,
+.comment-card-4 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 250px; /* puedes ajustar el tamaño aquí */
+}
+
+  /* Textos */
+    .comment-card-1 p,
+    .comment-card-2 p,
+    .comment-card-3 p,
+    .comment-card-4 p {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+/* Textarea */
+.form-responder textarea {
+    width: 100%;
+    height: 40px;
+    padding: 4px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+  /* Contenedor de botones (flex para ponerlos lado a lado) */
+.botones {
+    display: flex;
+    gap: 8px;
+}
+
+  /* Botones */
+    .botones button {
+    padding: 4px 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  /* Botón Me gusta (rojo claro) */
+    .botones button:first-child {
+    background-color: #ffdddd;
+}
+
+  /* Botón Enviar (azul claro) */
+    .botones button:last-child {
+    background-color: #ddeeff;
+}
+
+  /* Hover bonito opcional */
+    .comment-card-1:hover,
+    .comment-card-2:hover,
+    .comment-card-3:hover,
+    .comment-card-4:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    background-color: #f0f8ff;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
