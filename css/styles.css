@@ -282,12 +282,12 @@ p {
         flex-direction: column;
     }
 
-/* Layout grid 2x2 */
+/* Layout grid 3x3*/
 .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    margin-top: 1200px;
+    margin-top: 15px;
     width: max-content;
     margin-left: auto;
     margin-right: auto;
