@@ -6,3 +6,16 @@ $text-color: #000;
 $background-light: #f9f9f9;
 $card-radius: 8px;
 $shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+@mixin respond-to($breakpoint) {
+@if $breakpoint == sm {
+    @media (max-width: $breakpoint-sm) { @content; }
+} @else if $breakpoint == md {
+    @media (max-width: $breakpoint-md) { @content; }
+} @else if $breakpoint == lg {
+    @media (max-width: $breakpoint-lg) { @content; }
+} @else if $breakpoint == xl {
+    @media (max-width: $breakpoint-xl) { @content; }
+}
+}
+
