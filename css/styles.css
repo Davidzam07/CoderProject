@@ -285,12 +285,13 @@ p {
 /* Layout grid 2x2 */
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    margin-top: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 1200px;
     width: max-content;
     margin-left: auto;
     margin-right: auto;
+    padding: 2rem;
 }
 
 

@@ -2,14 +2,36 @@
   .card-container {
     flex-direction: column;
     align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s;
   }
   .travel-card {
     width: 90%;
     max-width: 350px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s;
   }
 }
 @media (max-width: 768px) {
   .paquetes .card {
     flex: 1 1 100%;
+  }
+}
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .card-container {
+    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=responsive.css.map */
