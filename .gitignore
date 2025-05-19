@@ -1,0 +1,17 @@
+# node modules
+node_modules/
+
+# archivos compilados
+dist/
+*.css
+*.css.map
+
+# archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+
+# otros
+.env

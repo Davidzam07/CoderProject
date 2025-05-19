@@ -1,4 +1,4 @@
-// Contenedor de cards con flexbox
+// contenedor de cards con flexbox
 .card-container {
 @include flex-center(row, 20px);
 flex-wrap: wrap;
