@@ -10,3 +10,9 @@
     max-width: 350px;
 }
 }
+
+@media (max-width: 768px) {
+.paquetes .card {
+    flex: 1 1 100%;
+}
+}
