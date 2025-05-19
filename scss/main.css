@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body.inicio {
+  background-image: url("https://media.istockphoto.com/id/1143483543/photo/foggy-morning-in-the-mountains.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body.paquetes {
+  background-image: url("https://media.istockphoto.com/id/1192380569/photo/beautiful-sunset-over-the-mountains.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav ul li {
+  display: inline;
+  margin: 10px;
+}
+nav ul li a {
+  color: #000;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #1c7cbd;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+}
+
+.travel-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+.travel-card:hover {
+  transform: translateY(-5px);
+}
+.travel-card img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.travel-card .card-body {
+  padding: 15px;
+}
+.travel-card .card-body h3 {
+  color: #1c7cbd;
+  margin-bottom: 10px;
+}
+.travel-card .card-body p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.travel-card .card-body a {
+  background-color: #0e4b74;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.travel-card .card-body a:hover {
+  background-color: #1c7cbd;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .travel-card {
+    width: 90%;
+    max-width: 350px;
+  }
+}/*# sourceMappingURL=main.css.map */

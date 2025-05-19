@@ -1,17 +1,17 @@
-// Mixin para fondo fijo con imagen
+// mixin para fondo fijo con imagen
 @mixin background-fixed($url) {
-  background-image: url($url);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+background-image: url($url);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
-// Mixin para centrar con flexbox, dirección y espacio personalizable
+// mixin para centrar con flexbox, dirección y espacio personalizable
 @mixin flex-center($direction: row, $gap: 0) {
-  display: flex;
-  flex-direction: $direction;
-  justify-content: center;
-  align-items: center;
-  gap: $gap;
+display: flex;
+flex-direction: $direction;
+justify-content: center;
+align-items: center;
+gap: $gap;
 }
