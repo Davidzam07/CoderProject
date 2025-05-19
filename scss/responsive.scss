@@ -1,0 +1,12 @@
+// Responsive para pantallas pequeñas
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .travel-card {
+    width: 90%;
+    max-width: 350px;
+  }
+}

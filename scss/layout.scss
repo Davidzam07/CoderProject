@@ -1,0 +1,21 @@
+// Fondo fijo distinto según clase body
+body.inicio {
+  @include background-fixed('https://media.istockphoto.com/id/1143483543/photo/foggy-morning-in-the-mountains.jpg');
+}
+
+body.paquetes {
+  @include background-fixed('https://media.istockphoto.com/id/1192380569/photo/beautiful-sunset-over-the-mountains.jpg');
+}
+
+// Nav básico
+nav ul li {
+  display: inline;
+  margin: 10px;
+  a {
+    color: $text-color;
+    font-weight: bold;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}

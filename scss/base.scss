@@ -1,0 +1,14 @@
+// Estilos base para body, textos e imágenes
+body {
+  font-family: $font-stack;
+  font-size: 16px;
+  color: $text-color;
+  padding: 10px;
+  text-align: center;
+  background-color: $background-light;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
