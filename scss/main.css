@@ -81,19 +81,16 @@ nav ul li a:hover {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.travel-card .card-body {
-  padding: 15px;
-}
-.travel-card .card-body h3 {
+.travel-card h3 {
   color: #1c7cbd;
   margin-bottom: 10px;
 }
-.travel-card .card-body p {
+.travel-card p {
   color: #666;
   font-size: 14px;
   margin-bottom: 15px;
 }
-.travel-card .card-body a {
+.travel-card a {
   background-color: #0e4b74;
   color: white;
   padding: 10px 15px;
@@ -101,17 +98,71 @@ nav ul li a:hover {
   display: inline-block;
   transition: background-color 0.3s ease;
 }
-.travel-card .card-body a:hover {
+.travel-card a:hover {
   background-color: #1c7cbd;
+}
+
+.btn-send {
+  background-color: #0e4a70;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.btn-send:hover {
+  background-color: #082c43;
 }
 
 @media (max-width: 768px) {
   .card-container {
     flex-direction: column;
     align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s;
   }
   .travel-card {
     width: 90%;
     max-width: 350px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s;
   }
+}
+@media (max-width: 768px) {
+  .paquetes .card {
+    flex: 1 1 100%;
+  }
+}
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
+@keyframes entradaLentaRapida {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+body {
+  animation: entradaLentaRapida 1s cubic-bezier(0.4, 0, 1, 1) both;
 }/*# sourceMappingURL=main.css.map */
