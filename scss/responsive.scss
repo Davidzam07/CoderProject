@@ -1,5 +1,5 @@
 // responsive para pantallas peques
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 .card-container {
     flex-direction: column;
     align-items: center;
@@ -23,13 +23,13 @@
 }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 .paquetes .card {
     flex: 1 1 100%;
 }
 }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
 .card-container {
     grid-template-columns: repeat(2, 1fr);
 }

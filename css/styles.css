@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 480px) {
 body {
     font-size: 16px;
     padding: 10px;
@@ -6,11 +6,11 @@ body {
     text-align: center;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
 body.inicio{
     font-size: 16px;
     padding: 10px;
-    background-image: url('./images/home-bg.png');
+    background-image: url('/images/home-bg.png');
     background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -20,7 +20,7 @@ flex-direction: column;
         gap: 10px;
     }
 }
-@media (min-width: 600px) {
+@media (min-width: 480px) {
 body.paquetes{
     font-size: 16px;
     padding: 10px;
@@ -243,7 +243,7 @@ p {
         background-color: #1c7cbd;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         .card-container {
         flex-direction: column;
         align-items: center;
@@ -291,7 +291,7 @@ p {
 
 
   /* Responsive: 1 columna en móvil */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .card-grid {
     grid-template-columns: 1fr;
     }
@@ -370,13 +370,13 @@ form {
 
 .btn-send {
   background-color: #0e4a70; /* Azul oscuro */
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 6px;
+cursor: pointer;
+font-size: 16px;
+transition: background-color 0.3s ease;
 }
 
 .btn-send:hover {
